@@ -1,0 +1,280 @@
+body {
+    color: white;
+
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px; /* Adjust as needed */
+    margin-bottom: -250px;
+    margin-top: -80px;
+}
+
+.nav-icon {
+    margin-bottom: 10px;
+}
+
+.hamburger-icon {
+    display: none; /* Initially hide the hamburger icon */
+    cursor: pointer;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    .navigation.responsive {
+        flex-direction: column;
+        align-items: center;
+        margin: 0; /* Reset margins for mobile layout */
+    }
+
+    .nav-icon {
+        display: none; /* Hide individual nav icons on mobile */
+    }
+
+    .hamburger-icon {
+        display: block; /* Show the hamburger icon on mobile */
+    }
+}
+
+  
+  h1 {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+  }
+  
+  h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  p {
+    line-height: 2;
+  }
+  
+  hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+  
+  a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #eaf6f6;
+  }
+  
+  .top-container {
+    background-color: #e4f9f5;
+      position: relative;
+      padding-top: 100px;
+      height: 100vh;
+      border-radius: 10px; /* Add rounded corners for a softer look */
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+      transform: perspective(1000px) rotateX(20deg); /* Apply a 3D transform */
+  }
+
+
+.intro{
+
+    height: 50%;
+    /* color: #e4f9f5; */
+  }
+
+
+#Home{
+  background-image: url("./blurry-gradient-haikei.png");
+
+}
+
+
+
+
+
+
+  
+  
+  .middle-container {
+    margin: 100px 0;
+  
+  }
+  
+  .bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+  }
+   
+  .pro {
+    text-decoration: underline;
+  }
+  
+  .intro {
+    width: 30%;
+    margin: auto;
+  }
+  
+  .contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+  
+ .card1{
+    margin-left: 10%;
+    margin-bottom: 5%;
+ }
+
+ .card2{
+    margin-left: 10%;
+    margin-bottom: 5%;
+
+ }
+ .card3{
+    margin-left: 10%;
+    margin-bottom: 5%;
+ }
+ .card4{
+    margin-left: 10%;
+    margin-bottom: 5%;
+ }
+
+  .card{
+    margin: 10px;
+  }
+
+
+
+
+  .container {
+    display: flex;
+  }
+
+  .box1, .box2 {
+    width: 50%; /* Set width based on your preference */
+    padding: 20px; /* Optional: Add padding for spacing */
+  }
+
+ h2{    
+    
+    text-align: center;/* Optional: Add padding for spacing */
+ }
+
+
+
+ .icon-btn {
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    color: lightblue;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 45px;
+    display: inline-block;
+    margin: 4px;
+  }
+  
+  .github {
+    color: black;
+  }
+  
+  .linkedin {
+    color: #0077b5;
+  }
+  
+  .angellist {
+    color: lightblue; 
+  }
+  
+  .icon-btn:hover {
+    transform: scale(1.10);
+    color: #FFFFFF;
+  }
+  
+  .linkedin:hover {
+    background-color: #0077b5;
+  }
+  
+  .angellist:hover {
+    background-color: lightskyblue;
+  }
+  
+  .github:hover {
+    background-color: black;
+  }
+
+
+  .typing {
+    font-weight: 300;
+    font-size:30px;
+    color: #004d40;
+    overflow: hidden; /* Hide overflowing characters */
+     white-space: nowrap; /* Keep text in a single line */
+  }
+  
+  .typed-cursor {
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 1;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .skills {
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .skills img {
+    margin-right: 40px; /* Adjust the right margin for spacing between icons */
+  }
+  
+.nav-icon{
+  font-size: 24px;
+
+}
+
+
+.container3{
+  height: 300px;
+  background-image: url("./stacked-peaks-haikei.png ");
+}
+
+
+.btn{
+  border-color: #004d40;
+}
+
+.btn:hover{
+  background-color: #004d40;
+  color: white;
+}
+
